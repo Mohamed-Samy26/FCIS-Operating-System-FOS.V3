@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [  
+    {
+      "type": "gdb",
+      "request": "attach",
+      "name": "Debug FOS",
+      "remote": true,
+      "target": ":26000",
+      "cwd": "${workspaceRoot}",
+      "executable": "obj/kern/kernel",
+      "preLaunchTask": "build-debug",
+      // "gdbpath": "${cwd}\\bin",
+    },
+    {
+      "type": "gdb",
+      "request": "attach",
+      "name": "Debug User FOS",
+      "remote": true,
+      "target": ":26000",
+      "cwd": "${workspaceRoot}",
+      "executable": "obj/user/fos_add",
+      "preLaunchTask": "build-debug",
+      // "gdbpath": "${cwd}\\bin",
+    }
+  ]
+}

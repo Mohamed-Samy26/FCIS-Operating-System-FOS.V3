@@ -1,0 +1,15 @@
+/bochs.log
+.metadata/
+obj/
+/.settings
+.settings/language.settings.xml
+.settings/language.settings.xml
+.settings/language.settings.xml
+bin/
+qemu/
+mingw/
+opt/
+usr/
+etc/
+sbin/
+var/
