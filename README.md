@@ -2,15 +2,9 @@
 
 ## First time run
 
-* Download the `FOS-V3` rar file from [Here](https://drive.google.com/drive/folders/11NjBGvJ2UBicPTfqtqxnrJyGfock1sGU?usp=share_link)
-* Extract `FOS-V3` in a new folder:
-  ![x](./Screenshots/0.jpg)
-* Run `FOS_VScode.bat`![1671664899578](image/README/1671664899578.png)
-* VS Code should now open in the project folder
-  * Trust project workspace
-    ![](./Screenshots/2.jpg)
-  * You will be automatically notified to download required extensions, Click Yes
-    ![](./Screenshots/3.jpg)
+<!-- * Download the `FOS-V3` rar file from [Here](https://drive.google.com/drive/folders/11NjBGvJ2UBicPTfqtqxnrJyGfock1sGU?usp=share_link) -->
+<!-- * Extract `FOS-V3` in a new folder: -->
+
 
 # How to use more than one FOS Template in same environment
 
@@ -28,7 +22,12 @@
   - ![1671757308909](image/How-To-Use_FOS_Codes/1671757308909.png)
   - ![1671757377066](image/How-To-Use_FOS_Codes/1671757377066.png)
 - Accept replace if notified
-- Now you can use `Vscode_FOS.bat` to run your project within the same enviroment
+- Now you can use `Vscode_FOS.bat` to run your project within the same enviroment ![1671664899578](image/README/1671664899578.png)
+* VS Code should now open in the project folder
+  * Trust project workspace
+    ![img](./Screenshots/2.jpg)
+  * You will be automatically notified to download required extensions, Click Yes
+    ![](./Screenshots/3.jpg)
 
 ## Build and run FOS
 
@@ -64,7 +63,7 @@
 - The Red Button is used to change the view set it to `TAGS` view
 - The Green Button is used to group items set it to  `Group by TAGS`
 - The Blue Button is used to filter the view and search for specific MS of functions
-- ![1675051638049](https://file+.vscode-resource.vscode-cdn.net/d%3A/FCIS/Year3/OS/FOScode/FOS-V3/image/README/1675051638049.png)
+- ![1675051638049](image/README/1675051638049.png)
 - Click this button until you get `TAGS` view
 
   ![1675051968098](image/README/1675051968098.png)
