@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [  
+    {
+      "type": "gdb",
+      "request": "attach",
+      "name": "Debug FOS",
+      "remote": true,
+      "target": ":26000",
+      "cwd": "${workspaceRoot}",
+      "executable": "obj/kern/kernel",
+      "preLaunchTask": "build-debug",
+      // "gdbpath": "${cwd}\\bin",
+    },
+    {
+      "type": "gdb",
+      "request": "attach",
+      "name": "Debug User fos_add", // Set the name of the debug configuration
+      "remote": true,
+      "target": ":26000",
+      "cwd": "${workspaceRoot}",
+      "executable": "obj/user/fos_add", // user binaries (aka: exe) are in obj/user/
+      "preLaunchTask": "build-debug",
+    }
+  ]
+}
